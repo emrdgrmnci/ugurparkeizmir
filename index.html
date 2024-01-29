@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .nav-link {
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        .nav-link.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .product-item {
+            margin-bottom: 20px;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Uğur Parke</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Uğur Parke Yer Döşemeleri</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About Us</a></li>
+            <li><a href="#products" class="nav-link active">Products</a></li>
+            <li><a href="#contact" class="nav-link" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container" id="home">
+        <div class="grid">
+            <section id="about">
+                <hgroup>
+                    <h2>About Us</h2>
+                    <h3>Learn More About Our Company</h3>
+                </hgroup>
+                <p>At Laminated Parquet Co., we are committed to providing top-quality flooring solutions. Our team of experts ensures the highest standard of service and product quality.</p>
+            </section>
+            <section>
+                <hgroup>
+                    <h2>Welcome to Laminated Parquet Co.</h2>
+                    <h3>Your Trusted Flooring Experts</h3>
+                </hgroup>
+                <p>We specialize in high-quality laminated parquet flooring, offering a wide range of styles and finishes to suit your home or business needs.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/featured/?parquet" alt="Laminated Parquet" />
+                    <figcaption><a href="#products" target="_blank">Explore our Collection</a></figcaption>
+                </figure>
+                <section id="products">
+                    <h3>Our Products</h3>
+                    <p>Discover our diverse range of durable and aesthetically pleasing laminated parquet options, perfect for any interior.</p>
+                    <div class="product-item">
+                        <h4>Terraclick Range</h4>
+                        <img src="https://source.unsplash.com/featured/?flooring" alt="Terraclick Product" class="product-image" />
+                        <p>Product Name 1</p>
+                        <img src="https://source.unsplash.com/featured/?flooring" alt="Terraclick Product" class="product-image" />
+                        <p>Product Name 2</p>
+                    </div>
+                    <div class="product-item">
+                        <h4>Varioclic Range</h4>
+                        <img src="https://source.unsplash.com/featured/?flooring" alt="Varioclic Product" class="product-image" />
+                        <p>Product Name 3</p>
+                        <img src="https://source.unsplash.com/featured/?flooring" alt="Varioclic Product" class="product-image" />
+                        <p>Product Name 4</p>
+                    </div>
+                </section>
+                <h3>Customer Testimonials</h3>
+                <p>Hear from our satisfied customers and learn how our parquet flooring has transformed their spaces.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example" id="contact">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Contact Us</h2>
+                    <h3>Get in Touch for More Information</h3>
+                </hgroup>
+                <p>For inquiries or more information about our products and services, please contact us. We're here to help!</p>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
