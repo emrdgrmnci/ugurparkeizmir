@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .nav-link {
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        .nav-link.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .product-item {
+            margin-bottom: 20px;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Ürünler – Uğur Parke</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong><a href="index.html" class="secondary">Uğur Parke Yer Döşemeleri</a></strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html" class="nav-link">Anasayfa</a></li>
+            <li><a href="about.html" class="nav-link">Hakkımızda</a></li>
+            <li><a href="products.html" class="nav-link active">Ürünler</a></li>
+            <li><a href="contact.html" class="nav-link" role="button">İletişim</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h1>Ürünlerimiz</h1>
+                    <h2>Lamine parke seçenekleri</h2>
+                </hgroup>
+                <p>Çeşitli, dayanıklı ve estetik açıdan hoş lamine parke seçeneklerimizi keşfedin, her türlü iç mekan için mükemmeldir.</p>
+                <div class="product-item">
+                    <figure>
+                        <img src="https://source.unsplash.com/featured/?parquet" alt="Terraclick Ürün" class="product-image" />
+                        <figcaption><a href="https://www.yildizentegre.com/urunler/terraclick" target="_blank" rel="noopener">Terraclick Range</a></figcaption>
+                    </figure>
+                </div>
+                <div class="product-item">
+                    <figure>
+                        <img src="https://source.unsplash.com/featured/?floor" alt="Varioclick Ürün" class="product-image" />
+                        <figcaption><a href="https://www.yildizentegre.com/en/products/varioclic" target="_blank" rel="noopener">Varioclick Range</a></figcaption>
+                    </figure>
+                </div>
+                <p><a href="contact.html" role="button">Keşif ve bilgi için bize ulaşın</a></p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
